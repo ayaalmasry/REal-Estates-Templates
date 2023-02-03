@@ -1,0 +1,98 @@
+body{
+    background: f1fbff;
+}
+/*---------------------------------------------------------------------------------NAVBAR &CAROUSEL-------------------------------------------------------------------------------------------------------------------------------*/
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom:6rem;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size:4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.carousel-caption p{
+    line-height: 1.7;
+    font-size:2rem;
+}
+.carousel-inner::before{
+    content:'';
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size:1.3rem;
+    
+}
+.navbar-brand{
+    font-size:2rem;
+    font-weight: bold;
+    letter-spacing: 1;
+}
+.navbar-brand:focus,
+.navbar-brand:hover{
+    color:#000;
+}
+/*................................................Responsive..........................................................................................*/
+@media only screen and(min-width:768px) and(max-width:991px){
+     .carousel-caption{
+        
+        bottom:280rem;
+ 
+    }
+    .carousel-caption h5{
+         font-size:3rem;
+    }
+    
+}
+@media(max-width:767px){
+    .navbar-nav{
+       text-align: center;
+    }
+    
+}
+/*-----------------------------------------------------------------------About---------------------------------------------------------------------------------------------------------------*/  
+section{
+    padding-top:9rem;
+}
+.abouth{
+    font-size:3rem;
+     
+}
+.abouth span{
+    color:skyblue;
+}
+.imgabout{
+    width:700px;height: 700px;
+    border-radius: 5rem;
+}
+
+
+
+/*................................................Responsive..........................................................................................*/
+
+    
+}
+@media(max-width:767px){
+    .abouth{
+        margin-top:2rem;
+    }
+    
+}
+/*---------------------------service------------------------------------------------------------------------------------------------------------*/
+.service i{
+    font-size:5rem;
+    
+}
+/*................................................Responsive..........................................................................................*/
+
+    
